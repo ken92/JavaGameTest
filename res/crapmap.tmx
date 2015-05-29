@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="left-up" width="32" height="32" tilewidth="32" tileheight="32" nextobjectid="19">
+ <tileset firstgid="1" name="image" tilewidth="32" tileheight="32">
+  <image source="image.png" width="512" height="512"/>
+  <tile id="183">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="184">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Terrain" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+WVUQ6AIAiGuUsHqsfe6ph6A7tVtXBjTZkIszYe/jFjgV/85gQAy6VJEMOliOtZGTesKYm5/45rTZRwe+WPzvm9zH8lGskv3bclf8++v+TPvY+P+ANKy63l13Jr+KNj/gSP97zye5+/NX8QKHbyc/fFnUuNOrCOlJ+7L2htqtKzLEv+EfPn+Ef435qf86Yk33OOOW/WcrTf+x2rc8zFBHXfWP3HWuZf+t4j+Gn/v/GfbL+1RQAQAAA=
+  </data>
+ </layer>
+ <layer name="Collide" width="32" height="32">
+  <properties>
+   <property name="Start" value="0,0"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OsQ0AIAwDQe+/L6RDZAE6lOpO+sqNE4Bkdburx34GvwAAAP9dRRO/YQAQAAA=
+  </data>
+ </layer>
+ <layer name="No-Collide" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGJxgJRK7HIgr6GDnDBzi7UDcQQf7RwEmwBUno2AUjALagtG8NwpGwSgYBaNgFIyCUTD8AABikLzQABAAAA==
+  </data>
+ </layer>
+ <layer name="Over Player" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgwA9mEJCnNVgxwPaP+p9+4CgQHwPi40hi9PT/VSC+BsTXkcRG438UjIJRMApGwSgYBaNgFIyCUTBcAADvgcCUABAAAA==
+  </data>
+ </layer>
+ <layer name="1 Over Player" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OsQ0AIAwDwey/J6FjhmSBtAihO+krN44AXrC67Pawn4tfAACA/xRki+E2ABAAAA==
+  </data>
+ </layer>
+</map>
